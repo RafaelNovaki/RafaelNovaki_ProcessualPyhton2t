@@ -1,4 +1,4 @@
-nomes = [
+usuarios = [
     "Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Júlia",
     "Kauã", "Larissa", "Miguel", "Natália", "Otávio", "Olivia", "Pedro", "Patrícia", "Rafael", "Rafaela",
     "Samuel", "Sabrina", "Thiago", "Tainá", "Victor", "Úrsula", "William", "Valentina", "André", "Yasmin",
@@ -13,7 +13,7 @@ nomes = [
 
 print("Iniciando o processamento dos nomes:\n")
 
-for indice, nome in enumerate(nomes):
+for indice, nome in enumerate(usuarios):
     numero_da_pessoa = indice + 1
 
     if nome == "Úrsula":
